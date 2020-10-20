@@ -1,0 +1,283 @@
+﻿.sidebar {
+    height: 100%;
+    /*dth: 0;*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1c1c1e;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15px;
+    width: 200px;
+    max-width: 200px;
+}
+.sidebarDetail {
+    height: 100%;
+    /*dth: 0;*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2b2b2b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 15px;
+    width: 280px;
+    max-width: 280px;
+    margin-left: 200px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-size: 14px !important;
+    padding-right: 14px;
+    padding-left: 2px;
+    padding-top: 12px;
+    float: left;
+    width: 100%;
+}
+
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+    .openbtn:hover {
+        background-color: #444;
+    }
+.Float-left
+{
+    float:left;
+}
+.Float-right
+{
+    float:right;
+}
+.CloseBtn i
+{
+    font-size:14px !important;
+    margin-left:4px;
+}
+.P-l-0
+{
+    padding-left:0px !important;
+}
+.P-t-4
+{
+    padding-top:4px !important;
+}
+.Orange {
+    color: #e77831 !important;
+}
+.Set-Open {
+    padding-left: 15px !important;
+    padding-top: 3px !important;
+}
+.Set-Close {
+    padding-top: 3px !important;
+    padding-right: 15px !important;
+}
+.CloseBtn
+{
+    margin-bottom:50px;
+}
+.Icon-sideMenu {
+    float: left !important;
+    padding-left: 10px;
+    padding-top: 5px !important;
+    font-size:18px;
+    margin-bottom:15px !important;
+}
+.Span-Numbers {
+    font-size: 10px;
+    float: right;
+    color: #e77831;
+    padding-top: 5px;
+    font-weight:700;
+}
+
+.Side-List li
+{
+    display:inline-block !important;
+    float:left !important;
+    padding-left:15px;
+    width:94%;
+    padding-bottom:5px;
+    margin-left:4px;
+}
+.active {
+    padding-left: 0px;
+    background-color: #34393f;
+    border-radius: 8px;
+    color: white !important;
+}
+.active a
+{
+    color:white !important;
+}
+#side-Bar
+{
+    padding:0px !important;
+}
+#Main {
+    transition: margin-left .5s;
+    
+}
+.Collapse-Main {
+    color: white !important;
+    float: left;
+    margin-left: 9px;
+    font-size: 18px;
+    cursor:pointer;
+    font-weight:500;
+}
+.Text-Setting
+{
+    float:left;
+    font-weight:400;
+    color:white;
+    margin-left:35px;
+}
+.setImage img
+{
+    width:58px;
+    float:left;
+    margin-left:12px;
+}
+.m-t-18
+{
+    margin-top:18px;
+}
+.UserName {
+    float: left !important;
+    color: white !important;
+    font-weight: 600;
+}
+.SetSize
+{
+    font-size:10px;
+    color:white;
+}
+.Set-Online {
+    color: green !important;
+    font-size: 6px;
+    margin-left: 5px;
+}
+.p-l-4
+{
+    padding-left:4px;
+}
+.Span-Time {
+    font-size: 9px;
+    color: white !important;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.set-OPtions
+{
+    margin-right:7px;
+    color:white;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    font-size: 13px;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 3.3rem;
+    margin-left: 6px;
+    text-align: center;
+    pointer-events: none;
+    color: white !important;
+    margin-right: 10px;
+}
+.has-search {
+    margin-left: 25px;
+    border-radius: 14px;
+    margin-right:25px;
+}
+.FormSearch {
+    padding: 5px;
+    padding-left: 32px;
+    border-radius: 12px !important;
+    background-color: #363d45;
+    margin-top: 25px;
+    font-size: 13px;
+    color:white !important;
+    margin-bottom:8px;
+
+}
+.HrContent {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #484545;
+}
+.IconListing {
+    border-radius: 50%;
+    background-color: #363636;
+    padding: 10px;
+    font-size: 18px;
+    padding-top: 10px !important;
+    margin-left: 10px;
+    margin-right: 18px;
+    float: left;
+    color: #e77831;
+}
+.Account-Text
+{
+    color:white !important;
+    font-weight:700;
+    font-size:14px;
+}
+.Ul-Setting li {
+    border-top: 1px solid #363d45;
+    padding-top: 19px;
+    margin-top: 0px;
+    display: inline-block;
+    width: 100%;
+    padding-bottom:10px;
+}
+.Description {
+    float: left !important;
+    font-size: 11px;
+    color: #b9b9b9 !important;
+}
+.Message-Notification {
+    float: right !important;
+    padding-right: 6px;
+    font-size: 9px;
+    background-color: red !important;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 800;
+    color: white !important;
+    margin-right: 14px;
+    padding-left: 6px;
+    margin-top: 3px;
+}
